@@ -1,0 +1,28 @@
+@import "./blocks/_colors.scss";
+@import "./blocks/_variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+a {
+  color: var(--primary-text-color)
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
