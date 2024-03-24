@@ -2,6 +2,7 @@
 
 import AboutMeSection from "~/components/sections/AboutMeSection.vue";
 import MyStackSection from "~/components/sections/MyStackSection.vue";
+import CompaniesSection from "~/components/sections/CompaniesSection.vue";
 </script>
 
 <template>
@@ -12,7 +13,9 @@ import MyStackSection from "~/components/sections/MyStackSection.vue";
     <BaseSectionWrapper>
       <MyStackSection />
     </BaseSectionWrapper>
-    <section>projects</section>
+    <BaseSectionWrapper>
+      <CompaniesSection />
+    </BaseSectionWrapper>
     <section>contacts</section>
   </main>
 </template>
@@ -20,7 +23,7 @@ import MyStackSection from "~/components/sections/MyStackSection.vue";
 <style scoped lang="scss">
 .main {
   display: grid;
-  grid-row-gap: var(--spacing-10);
+  grid-row-gap: 15rem;
   margin-bottom: var(--spacing-10);
   color: var(--primary-text-color)
 }

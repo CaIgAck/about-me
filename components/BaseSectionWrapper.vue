@@ -3,7 +3,3 @@
     <slot />
   </section>
 </template>
-
-<style scoped>
-
-</style>

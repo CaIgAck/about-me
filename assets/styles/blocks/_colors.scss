@@ -1,19 +1,20 @@
 :root {
   --primary-background-color: #0c0c0c; // темный фон страницы
-  --primary-card-background-color: #1a1a1a; // темный фон карточек
-  --secondary-card-background-color: #ffffff; // белый текст и элементы
-  --third-card-background-color: #c2c1b3; // светло-фиолетовый фон для нижней части
-  --primary-text-color: #ffffff; // основной цвет текста для темной темы
-  --primary-button-background-color: #1a1a1a; // фон кнопок для темной темы
+  --primary-card-background-color: #822EFF; // темный фон карточек
 
+  --primary-text-color: #ffffff; // основной цвет текста для темной темы
+  --primary-card-text-color: #ffffff;
+
+  --primary-button-background-color: #822EFF; // фон кнопок для темной темы
 }
 
 [data-theme='light'] {
   --primary-background-color: #f3f3f3; // светло-серый фон страницы
-  --primary-card-background-color: #ffffff; // белый фон карточек
-  --secondary-card-background-color: #000000; // черный текст и элементы
-  --third-card-background-color: #3d364f; // темно-фиолетовый фон для нижней части
+  --primary-card-background-color: #822EFF; // темный фон карточек
+
   --primary-text-color: #000000; // основной цвет текста
-  --primary-button-background-color: #ffffff; // фон кнопок
+  --primary-card-text-color: #ffffff;
+
+  --primary-button-background-color: #822EFF; // фон кнопок
 }
 
