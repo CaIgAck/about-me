@@ -23,7 +23,10 @@ const sovcomBadges = [
 </script>
 
 <template>
-  <div class="companies">
+  <div
+    id="portfolio"
+    class="companies"
+  >
     <div class="companies-heading">
       <h2
         class="companies-heading__title"
@@ -89,11 +92,22 @@ const sovcomBadges = [
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
+
+
+    .card {
+      &:last-child {
+        grid-column: 1 / 3;
+      }
+    }
   }
 }
 @media screen and (max-width: 768px) {
   .companies-site {
     grid-template-columns: 1fr;
+    .card:nth-child(3) {
+      grid-column: auto;
+    }
   }
 }
+
 </style>

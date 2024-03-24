@@ -16,7 +16,6 @@ import CompaniesSection from "~/components/sections/CompaniesSection.vue";
     <BaseSectionWrapper>
       <CompaniesSection />
     </BaseSectionWrapper>
-    <section>contacts</section>
   </main>
 </template>
 
