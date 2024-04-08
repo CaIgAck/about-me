@@ -6,6 +6,7 @@
   --primary-card-text-color: #ffffff;
 
   --primary-button-background-color: #822EFF; // фон кнопок для темной темы
+  --primary-button-background-hover-color: #5101c7; // фон кнопок при наведении
 }
 
 [data-theme='light'] {
@@ -16,5 +17,6 @@
   --primary-card-text-color: #ffffff;
 
   --primary-button-background-color: #822EFF; // фон кнопок
+  --primary-button-background-hover-color: #5101c7; // фон кнопок при наведении
 }
 

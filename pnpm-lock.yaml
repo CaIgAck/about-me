@@ -1753,7 +1753,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@tufjs/canonical-json': 2.0.0
-      minimatch: 9.0.3
+      minimatch: 9.0.4
     dev: false
 
   /@types/estree@1.0.5:
@@ -3931,7 +3931,7 @@ packages:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       minipass: 7.0.4
       path-scurry: 1.10.1
     dev: false
@@ -4184,7 +4184,7 @@ packages:
     resolution: {integrity: sha512-t7sv42WkwFkyKbivUCglsQW5YWMskWtbEf4MNKX5u/CCWHKSPzN4FtBQGsQZgCLbxOzpVlcbWVK5KB3auIOjSw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      minimatch: 9.0.3
+      minimatch: 9.0.4
     dev: false
 
   /ignore@5.3.1:
@@ -4836,8 +4836,8 @@ packages:
       brace-expansion: 2.0.1
     dev: false
 
-  /minimatch@9.0.3:
-    resolution: {integrity: sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==}
+  /minimatch@9.0.4:
+    resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       brace-expansion: 2.0.1

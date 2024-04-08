@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import Card from "~/components/UI/Card.vue";
+import Card from "~/components/UI/TheCard.vue";
 
 const redboxBadges = [
     'vue 2',

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import TheButton from "~/components/UI/TheButton.vue";
+import LinkButton from "~/components/UI/LinkButton.vue";
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import TheButton from "~/components/UI/TheButton.vue";
         class="links"
       >
         <li>
-          <TheButton
+          <LinkButton
             href="mailto:ivan.kapitonov2002@gmail.com"
           >
             <img
@@ -23,10 +23,10 @@ import TheButton from "~/components/UI/TheButton.vue";
               alt="Email"
             >
             ivan.kapitonov2002@gmail.com
-          </TheButton>
+          </LinkButton>
         </li>
         <li>
-          <TheButton
+          <LinkButton
             href="https://t.me/ISKapitonoff"
           >
             <img
@@ -35,13 +35,14 @@ import TheButton from "~/components/UI/TheButton.vue";
               height="14"
               alt="Telegram"
             > telegram
-          </TheButton>
-        </li><li>
-          <TheButton
+          </LinkButton>
+        </li>
+        <li>
+          <LinkButton
             href="https://career.habr.com/saigak"
           >
             career.habr
-          </TheButton>
+          </LinkButton>
         </li>
       </ul>
     </div>

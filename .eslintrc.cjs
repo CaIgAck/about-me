@@ -6,10 +6,10 @@ module.exports = {
     },
     extends: [
         'plugin:vue/vue3-recommended',
-        'eslint:recommended'
+        'eslint:recommended',
     ],
     plugins: [
-        'vue',
+        'vue'
     ],
     rules: {
         'vue/multi-word-component-names': 'off',
