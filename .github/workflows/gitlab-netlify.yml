@@ -8,7 +8,7 @@ permissions:
   contents: read
   pull-requests: read
 jobs:
-  running-lint:
+  publishing:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
