@@ -1,0 +1,18 @@
+name: publish on netlify
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  running-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: "Deploy build"
+        run: curl -X POST -d '{}' https://api.netlify.com/build_hooks/5c23354f454e1350f8543e78
+
