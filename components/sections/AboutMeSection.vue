@@ -4,11 +4,11 @@
       Привет, меня зовут Капитонов Иван. Я фронтенд-разработчик 👨‍💻. Делаю сайты эффективными, быстрыми 🚀, красивыми.
     </h1>
     <img
-      src="https://www.rainforest-alliance.org/wp-content/uploads/2021/06/capybara-square-1.jpg.optimal.jpg"
+      src="/assets/images/png/me.webp"
       class="about-me__photo"
       alt="Моё фото"
-      width="340"
-      height="270"
+      height="330"
+      width="260"
     >
   </div>
 </template>
@@ -30,7 +30,6 @@
 
   &__photo {
     display: flex;
-    flex-basis: 25%;
     border-radius: var(--border-radius-5);
   }
 }
