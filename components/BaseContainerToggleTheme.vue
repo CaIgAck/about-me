@@ -35,11 +35,10 @@ const toggleTheme = () => {
 
 <style scoped lang="scss">
 .container__toggle-theme {
-  position: absolute;
-  top: 50px;
-  right: 100px;
+  height: max-content;
   .toggle-theme {
     position: sticky;
+    top: 0;
   }
 }
 </style>
