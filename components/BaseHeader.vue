@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import LinkButton from "~/components/UI/LinkButton.vue";
 import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
 </script>
 
@@ -26,7 +27,7 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
       >
         Контакты
       </a>
-      <!-- <LinkButton
+      <LinkButton
         class="header__resume"
         href="https://kazan.hh.ru/resume/c9f32b57ff082686b10039ed1f657149335061"
       >
@@ -37,7 +38,7 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
           height="16"
           alt="hh.ru"
         > Моё резюме
-      </LinkButton> -->
+      </LinkButton>
     </nav>
     <BaseContainerToggleTheme class="toggle-theme" />
   </header>
@@ -57,9 +58,9 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
     text-decoration: none;
     letter-spacing: 2px;
   }
-  // &__resume{ 
-  //   margin-right: var(--spacing-5);
-  // }
+  &__resume{ 
+    margin-right: var(--spacing-5);
+  }
 }
 .navigation {
   margin-left: auto;
@@ -88,6 +89,9 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
 
 @media screen and (max-width: 680px) {
   .navigation {
+    display: none;
+  }
+  .toggle-theme {
     display: none;
   }
 }
