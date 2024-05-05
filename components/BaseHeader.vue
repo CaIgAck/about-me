@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import LinkButton from "~/components/UI/LinkButton.vue";
 import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
 </script>
 
@@ -27,7 +26,7 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
       >
         Контакты
       </a>
-      <LinkButton
+      <!-- <LinkButton
         class="header__resume"
         href="https://kazan.hh.ru/resume/c9f32b57ff082686b10039ed1f657149335061"
       >
@@ -38,7 +37,7 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
           height="16"
           alt="hh.ru"
         > Моё резюме
-      </LinkButton>
+      </LinkButton> -->
     </nav>
     <BaseContainerToggleTheme class="toggle-theme" />
   </header>
