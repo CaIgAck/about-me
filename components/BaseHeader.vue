@@ -40,7 +40,7 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
         > Моё резюме
       </LinkButton>
     </nav>
-    <BaseContainerToggleTheme class="toggle-theme" />
+    <BaseContainerToggleTheme />
   </header>
 </template>
 
@@ -89,9 +89,6 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
 
 @media screen and (max-width: 680px) {
   .navigation {
-    display: none;
-  }
-  .toggle-theme {
     display: none;
   }
 }
