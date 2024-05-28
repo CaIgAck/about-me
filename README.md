@@ -20,6 +20,12 @@ yarn install
 bun install
 ```
 
+## Запуск приложения на докере  `http://localhost:3000`
+```bash
+# npm
+docker compose up --build
+```
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
@@ -73,3 +79,4 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
