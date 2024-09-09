@@ -7,26 +7,28 @@ import BaseContainerToggleTheme from "./BaseContainerToggleTheme.vue";
   <header
     class="header"
   >
-    <a
-      href="/"
+    <NuxtLink
+      to="/"
       class="header__logo"
       title="Kapitonoff"
-    >Kapitonoff</a>
+    >
+      Kapitonoff
+    </NuxtLink>
     <nav
       class="navigation"
     >
-      <a
-        href="#portfolio"
+      <NuxtLink
+        to="/media"
         class="navigation__link"
       >
-        Портфолио
-      </a>
-      <a
-        href="#contacts"
+        Медиа
+      </NuxtLink>
+      <NuxtLink
+        to="/contacts"
         class="navigation__link"
       >
         Контакты
-      </a>
+      </NuxtLink>
       <LinkButton
         class="header__resume"
         href="https://kazan.hh.ru/resume/c9f32b57ff082686b10039ed1f657149335061"

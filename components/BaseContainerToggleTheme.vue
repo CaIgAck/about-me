@@ -2,43 +2,38 @@
 import TheButton from "~/components/UI/TheButton.vue";
 import MoonIcon from "~/components/UI/MoonIcon.vue";
 import SunIcon from "~/components/UI/SunIcon.vue";
-import {ref} from "vue";
+import { ref } from "vue";
 
-const isDarkTheme = ref(true)
+const isDarkTheme = ref(true);
 
 const toggleTheme = () => {
-  const body = document.body;
-  const currentTheme = body.getAttribute('data-theme');
-  if (currentTheme === 'light') {
-    body.removeAttribute('data-theme');
-  } else {
-    body.setAttribute('data-theme', 'light');
-  }
-  isDarkTheme.value = !isDarkTheme.value
-}
+    const body = document.body;
+    const currentTheme = body.getAttribute("data-theme");
+    if (currentTheme === "light") {
+        body.removeAttribute("data-theme");
+    } else {
+        body.setAttribute("data-theme", "light");
+    }
+
+    isDarkTheme.value = !isDarkTheme.value;
+};
 </script>
 
 <template>
-  <div class="container__toggle-theme">
-    <TheButton
-      class="toggle-theme"
-      type-button="icon"
-      @click="toggleTheme"
-    >
-      <MoonIcon
-        v-if="!isDarkTheme"
-      />
-      <SunIcon v-else />
-    </TheButton>
-  </div>
+    <div class="container__toggle-theme">
+        <TheButton class="toggle-theme" type-button="icon" @click="toggleTheme">
+            <MoonIcon v-if="!isDarkTheme" />
+            <SunIcon v-else />
+        </TheButton>
+    </div>
 </template>
 
 <style scoped lang="scss">
 .container__toggle-theme {
-  height: max-content;
-  .toggle-theme {
-    position: sticky;
-    top: 0;
-  }
+    height: max-content;
+    .toggle-theme {
+        position: sticky;
+        top: 0;
+    }
 }
 </style>

@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import BaseHeader from "~/components/BaseHeader.vue";
+import BaseMain from "~/components/BaseMain.vue";
 import BaseFooter from "~/components/BaseFooter.vue";
 
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import FooterSection from "~/components/sections/FooterSection.vue";
+import FooterSection from "~/components/HomeSections/FooterSection.vue";
 </script>
 
 <template>
@@ -16,7 +16,6 @@ import FooterSection from "~/components/sections/FooterSection.vue";
 
 <style scoped lang="scss">
 .footer {
-  margin-top: 15rem;
   margin-bottom: var(--spacing-10);
   color: var(--primary-text-color);
 

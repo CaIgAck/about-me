@@ -1,8 +1,8 @@
 <script setup lang="ts">
 
-import AboutMeSection from "~/components/sections/AboutMeSection.vue";
-import MyStackSection from "~/components/sections/MyStackSection.vue";
-import CompaniesSection from "~/components/sections/CompaniesSection.vue";
+import AboutMeSection from "~/components/HomeSections/AboutMeSection.vue";
+import MyStackSection from "~/components/HomeSections/MyStackSection.vue";
+import CompaniesSection from "~/components/HomeSections/CompaniesSection.vue";
 </script>
 
 <template>
